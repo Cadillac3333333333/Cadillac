@@ -49,3 +49,7 @@ h1 {
           color: white;
           text-align: center;
         }
+        #niveau {
+          background-color: white;
+          max-width: 50%;
+        }
