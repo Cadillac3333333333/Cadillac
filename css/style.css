@@ -19,6 +19,8 @@ h1 {
             height: 22%;
             width:11%;
             background: white;
+            outline-style: double;
+            outline-width: 6px;
 
         }
         #poem {text-align: left;}
@@ -36,6 +38,7 @@ h1 {
           right: 1;
           text-align: right;
           background-color: white;
+          outline-style: solid;
         }
         #navigation {
           font-style: oblique;
@@ -63,4 +66,8 @@ h1 {
         #nom {
           font-style:initial;
           font-family: Cambria;
+        }
+        #motor {
+          font-style: oblique;
+          font-family: Courier New;
         }
