@@ -53,3 +53,7 @@ h1 {
           background-color: white;
           max-width: 50%;
         }
+        #nom {
+          font-style:initial;
+          font-family: Cambria;
+        }
