@@ -2,7 +2,7 @@
   border: 5px solid #555;
 }
         h1 {text-align: center;}
-h1 {
+        h1 {
           top: 0;
           right: 0;
           width: 100%;
@@ -34,4 +34,5 @@ h1 {
           position: fixed;
           right: 1;
           text-align: right;
+          background-color: white;
         }
