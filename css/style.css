@@ -71,3 +71,10 @@ h1 {
           font-style: oblique;
           font-family: Courier New;
         }
+        #image {text-align: center;}
+        #sports {
+          font-family: Courier New;
+          color: white;
+          text-align: center;
+          outline-style: solid;
+        }
