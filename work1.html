@@ -1,1 +1,28 @@
+<!DOCTYPE html> 
+<head>
+  <meta charset="utf-8">
+  <h1> Welcome to my website</h1>
 
+
+  </head>
+   <div id="poem"><a href="poemtravaux.html">Poem</a> <br>
+   <body>
+<script>
+  let number = "";
+let add = "";
+let conf = true;
+let ask = "";
+var tax = 1.13;
+ 
+while ( conf == true) {
+  ask = parseFloat(prompt("Quel est le prix?"))
+  number = parseInt(number+ask)
+  add ++;
+  conf = confirm("Avez-vous d'autres choses?");
+}
+alert("Prix avant les taxes : " + number )
+alert("Le prix totale est : " + (number*tax))
+
+  </script>
+    <script src="script.js"> </script>
+     </body>
